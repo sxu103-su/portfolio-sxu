@@ -18,7 +18,19 @@ a:hover {
 }
 
 .fitem{
- font-size: 40px;
+ font-size: 30px;
+}
+.blk {color:white;
+background-color: black;
+font-size: 20px;
+padding-right:5px;
+}
+#btn{
+    color:white;
+    background-color: black;
+}
+.sec{
+    margin-bottom: 150px;
 }
 .face{
     width:100%;
@@ -28,7 +40,9 @@ height:auto;
     font-size: 24px;
 }
 .con{
-    padding:45px;
+    padding-top:45px;
+    padding-bottom:45px;
+    padding-left:45px;
     padding-bottom:30px;
 }
 .name{
@@ -36,6 +50,7 @@ height:auto;
     font-size: 60px;
     font-family: "Playfair Display";
 }
+
 button{
     border-color: transparent;
 }
@@ -56,7 +71,7 @@ button{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s;
   }

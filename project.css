@@ -1,0 +1,146 @@
+    header {
+        background-color: #000;
+        color: #fff;
+        border: 20px;
+        padding: 20px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    
+    .dropdown-item {
+        color: black;
+    }
+    
+    body {
+        background-color: rgb(249, 249, 249);
+    }
+    
+    .main-content {
+        border-left: 614.825px;
+        border-right: 614.825px;
+        border-top: 1110px;
+        border-bottom: 1110ox;
+        margin: auto;
+        background-color: white;
+    }
+    
+    .navitem {
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .subitem {
+        padding-bottom: 5px;
+    }
+    
+    .navbar {
+        list-style-type: none;
+        padding: 0px;
+    }
+    
+    .side {
+        display: block;
+        padding-top: 20px;
+        padding-left: 0px;
+        list-style-type: none;
+    }
+    
+    .col-1 {
+        padding-right: 0px;
+    }
+    
+    .side li a {
+        display: block;
+        height: 40px;
+        text-decoration: none;
+        overflow: hidden;
+        color: white;
+        font-size: 14px;
+    }
+    
+    .side li span {
+        display: block;
+        height: 40px;
+        color: black;
+    }
+    
+    .side li a:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .side li a:hover span {
+        margin-top: -40px;
+    }
+    
+    .row {
+        margin-bottom: -15px;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    a:hover,
+    a:active,
+    a:visited {
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 5px 5px;
+        z-index: 1;
+        list-style-type: none;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .carousel-caption {
+        display: none;
+    }
+    
+    .carousel-item:hover .carousel-caption {
+        display: block;
+    }
+    
+    .carousel-item:hover {
+        background: grey;
+        filter: alpha(Opacity=80);
+        -moz-opacity: 0.8;
+        opacity: 0.8;
+    }
+    
+    .hint {
+        position: absolute;
+        z-index: 2;
+        left: 725px;
+        top: 590px;
+        color: white;
+        font-family: 'Allerta Stencil', sans-serif;
+    }
+    
+    .side-name {
+        font-size: 25px;
+        color: black;
+        font-family: 'Allerta Stencil', sans-serif;
+    }
+    
+    .side-adj {
+        position: absolute;
+        z-index: 1;
+        top: 28px;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-size: 8px;
+    }
