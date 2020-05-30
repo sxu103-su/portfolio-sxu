@@ -110,16 +110,17 @@
     .carousel-caption {
         display: none;
     }
-    
+   
     .carousel-item:hover .carousel-caption {
         display: block;
     }
-    
+    .carousel-caption #blkk{
+        color:black;
+    }
     .carousel-item:hover {
-        background: grey;
-        filter: alpha(Opacity=80);
-        -moz-opacity: 0.8;
-        opacity: 0.8;
+        background: black;
+        opacity: 0.8;        
+        z-index: 2;
     }
     
     .hint {
