@@ -20,6 +20,13 @@ a:hover {
 .fitem{
  font-size: 30px;
 }
+.titem {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.titem:hover {
+    font-weight: bold;
+}
 .blk {color:white;
 background-color: black;
 font-size: 20px;
